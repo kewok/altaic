@@ -1,4 +1,5 @@
 #!/bin/sh -l
+# Slurm workload manager job submission script
 # Submit with sbatch --array=1-8 jobscript.sh
 #SBATCH --time=96:00:00
 #SBATCH --partition=amdsmall
